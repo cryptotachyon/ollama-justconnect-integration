@@ -15,16 +15,28 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
+    "@tanstack/vue-form": "^0.19.2",
+    "@tanstack/zod-form-adapter": "^0.19.2",
+    "clsx": "^2.1.0",
+    "libsodium-wrappers": "^0.7.13",
     "pinia": "^2.1.7",
+    "pinia-plugin-persistedstate": "^3.2.1",
+    "tailwind-merge": "^2.3.0",
+    "trystero": "0.18.0",
+    "uuid": "^9.0.1",
+    "viem": "^2.9.23",
     "vue": "^3.4.21",
-    "vue-router": "^4.3.0"
+    "vue-router": "^4.3.0",
+    "zod": "^3.22.5"
   },
   "devDependencies": {
     "@playwright/test": "^1.43.0",
     "@rushstack/eslint-patch": "^1.8.0",
     "@tsconfig/node20": "^20.1.4",
     "@types/jsdom": "^21.1.6",
+    "@types/libsodium-wrappers": "^0.7.14",
     "@types/node": "^20.12.5",
+    "@types/uuid": "^9.0.8",
     "@vitejs/plugin-vue": "^5.0.4",
     "@vue/eslint-config-prettier": "^9.0.0",
     "@vue/eslint-config-typescript": "^13.0.0",
