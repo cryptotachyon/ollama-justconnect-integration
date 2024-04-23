@@ -1,64 +1,24 @@
-# ml-jc-chat-2
+## https://ollama.com/ & https://justconnect.eth.limo integration
 
-This template should help get you started developing with Vue 3 in Vite.
+### setup
 
-## Recommended IDE Setup
+- follow setup guide on https://github.com/ollama/ollama
+- go to https://justconnect.eth.limo
+- connect wallet and setup encryption key
+- extract public & private key from localstorage
+  - crypto/userKeys/[your-eth-address]
+- run app
+- push info into app
+- press start
+- wait a sec and verify if you are online
+- write messages to bot 🥳
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+### config
 
-## Type Support for `.vue` Imports in TS
+checkout configStore.ts & .env, for logic go to useLive.ts
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+### test my model
 
-## Customize configuration
+If I'm online you can test on https://justconnect.eth.limo/#/cryptotachyon.eth?init-tab=live
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-pnpm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-pnpm dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-pnpm build
-```
-
-### Run Unit Tests with [Vitest](https://vitest.dev/)
-
-```sh
-pnpm test:unit
-```
-
-### Run End-to-End Tests with [Playwright](https://playwright.dev)
-
-```sh
-# Install browsers for the first run
-npx playwright install
-
-# When testing on CI, must build the project first
-pnpm build
-
-# Runs the end-to-end tests
-pnpm test:e2e
-# Runs the tests only on Chromium
-pnpm test:e2e --project=chromium
-# Runs the tests of a specific file
-pnpm test:e2e tests/example.spec.ts
-# Runs the tests in debug mode
-pnpm test:e2e --debug
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-pnpm lint
-```
+###### powered by https://github.com/dmotz/trystero 💪💪
